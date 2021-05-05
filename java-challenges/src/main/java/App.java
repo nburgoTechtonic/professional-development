@@ -3,7 +3,7 @@ import challenges.NonDecreasingArray;
 public class App {
 
   public static void main(String[] args) {
-    int[] nums = new int[]{ 1,2,4,5,3 };
+    int[] nums = new int[]{ 5,7,1,8 };
     System.out.println(NonDecreasingArray.checkPossibility(nums));
   }
 }

@@ -11,7 +11,7 @@ public class NonDecreasingArray {
         if (i == 0
             || nums[i + 1] >= nums[i - 1]
             || i == nums.length - 2
-            || nums[i] + 1 <= nums[i + 2]) {
+            || nums[i] <= nums[i + 2]) {
           hasChanged = true;
         } else {
           return false;
